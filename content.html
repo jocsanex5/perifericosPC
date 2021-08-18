@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Perifericos de la computadora</title>
+	<meta type="description" content="pagina web educativa sobre los perifericos de la computadora">
+	<meta type="keywords" content="perifericos cp computadora entrada salida almacenamiento Jx5 jocsanex5 Jocsanex5">
+	<link rel="shortcut icon" href="recursos/favicon.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div id="loader" class="loader position-fixed bg-white w-100 h-100 top-0 bottom-0">
+		<div class="contener_general"> 
+			<div class="contener_mixte">
+				<div class="ballcolor ball_1">
+					&nbsp;
+				</div>
+			</div> 
+
+			<div class="contener_mixte">
+				<div class="ballcolor ball_2">
+					&nbsp;
+				</div>
+			</div> 
+
+			<div class="contener_mixte">
+				<div class="ballcolor ball_3">
+					&nbsp;
+				</div>
+			</div> 
+
+			<div class="contener_mixte">
+				<div class="ballcolor ball_4">
+					&nbsp;
+				</div>
+			</div> 
+		</div>
+	</div>
+
+	<div id="wrapper" class="container-fluit text-center">
+		<div class="m-4 ms-5 text-start">
+			<span id="title" class="fs-4">Perifericos de la computadora</span>
+		</div>
+
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light p-3">
+				<div class="container-fluit">
+					<a href="index.php" class="navbar-brand text-white ms-5 fs-6">Inicio</a>
+				</div>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <div class="collapse navbar-collapse text-start" id="navbarNav">
+			    	<ul class="navbar-nav">
+			    		<li class="nav-item m-2 text-white-50 fs-6">
+			    			<a href="#entrada" class="text-white-50 text-decoration-none">
+			    				Entrada
+			    			</a>
+			    		</li>
+
+			    		<li class="nav-item m-2 text-white-50 fs-6">
+			    			<a href="#salida" class="text-white-50 text-decoration-none">
+			    				Salida
+			    			</a>
+			    		</li>
+
+			    		<li class="nav-item m-2 text-white-50 fs-6">
+			    			<a href="#almacenamiento" class="text-white-50 text-decoration-none">
+			    				Almacenamiento
+			    			</a>
+			    		</li>
+			    	</ul>
+			    </div>
+			</nav>
+		</header>
+
+		<section id="present" class="w-100">
+			<div id="opaci" class="container-fluit w-100">
+				<div id="present-container" class="container-fluit w-100 d-flex justify-content-center align-items-center flex-column p-5">
+					<h1 class="present-title fs-1 fw-bold text-white">PERIFERICOS DE LA COMPUTADORA</h1>
+
+					<button id="btn-contact" class="m-3 p-4 rounded-pill border border-2 bg-transparent" title="Contacto">
+						<i class="far fa-comments fs-1 text-white"></i>
+					</button>
+				</div>
+
+				<div id="path" class="w-100 overflow-hidden">
+					<svg viewBox="0 0 500 150" preserveAspectRatio="none" class="w-100 h-100">
+						<path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;">
+						</path>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<section class="carousel">
+			<div>
+				<div class="carousel__contenedor w-100 d-flex justify-content-center align-items-center">
+					<div class="carousel__ant">
+						<button class="btn__carousel__ant bg-transparent border-0 fs-1">
+							 <i class="fas fa-chevron-left text-white"></i>
+						</button>
+					</div>
+
+					<div class="carousel__lista overflow-hidden">
+						<div class="carousle__item m-md-4">
+							<div id="cont_it" class="content-flex d-flex flex-column flex-xl-row justify-content-center align-items-center"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<div class="content-img w-auto h-auto">
+									<img class="m-lg-4 imgAD" src="recursos/d_entrada.jpg" width="650px" height="400px" alt="">
+								</div>
+
+								<div class="container-fluit text-white">
+									<h2 class="fs-1">
+										Entrada
+									</h2>
+								</div>
+							</div>
+
+							<div class="container-fluit w-100">
+								<div class="collapse" id="collapseExample">
+									<div class="card card-body w-75 m-auto">
+									    Los periféricos de E/S (Entrada y Salida) sirven básicamente para la comunicación de la computadora con
+									    el medio externo. Proveen el modo por el cual la información es transferida de afuera hacia adentro, y
+									    viceversa, y podría decirse que son el único modo de ingresar instrucciones y obtener datos de nuestra
+									    computadora, es decir que sin estos periféricos de entrada y salida no tendríamos la posibilidad de 
+									    interactuar con ningún dispositivo de cómputo.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousle__item m-md-4">
+							<div id="cont_it" class="content-flex d-flex flex-column flex-xl-row justify-content-center align-items-center"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<div class="content-img w-auto h-auto">
+									<img class="m-lg-4 imgAD" src="recursos/d_salida.jpg" width="650px" height="400px" alt="">
+								</div>
+
+								<div class="container-fluit text-white">
+									<h2 class="fs-1 mt-4">
+										Salida
+									</h2>
+								</div>
+							</div>
+
+							<div>
+								<div class="collapse" id="collapseExample">
+									<div class="card card-body w-75 m-auto">
+									    Un periférico o dispositivo de salida es un dispositivo electrónico capaz de imprimir, mostrar o emitir 
+									    señales que sean fácilmente interpretables por el usuario. Básicamente, un dispositivo de salida tiene la 
+									    función de mostrarle al usuario operador de la computadora el resultado de las operaciones realizadas o 
+									    procesadas por la misma.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousle__item m-md-4">
+							<div id="cont_it" class="content-flex d-flex flex-column flex-xl-row justify-content-center align-items-center"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<div class="content-img w-auto h-auto">
+									<img class="m-lg-4 imgAD" src="recursos/d_almacenamiento.webp" width="650px" height="400px" alt="">
+								</div>
+
+								<div class="container-fluit text-white">
+									<h2 class="fs-1 mt-4">
+										Almacenamiento
+									</h2>
+								</div>
+							</div>
+
+							<div>
+								<div class="collapse" id="collapseExample">
+									<div class="card card-body w-75 m-auto">
+									    En informática, los dispositivos de almacenamiento de datos o de información son los distintos 
+									    componentes electrónicos que posee una computadora o algún otro sistema informático semejante, y que le 
+									    permiten guardar o recuperar información de manera temporal o permanente, en algún tipo de soporte 
+									    físico. - Fuente: https://concepto.de/dispositivos-de-almacenamiento/
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel__sig">
+						<button class="btn__carousel__sig bg-transparent border-0 fs-1" >
+							 <i class="fas fa-chevron-right text-white"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="carousel__indicadores" role="tabList"></div>
+			</div>
+		</section>
+
+		<section class="content m-5 p-lg-4">
+			<div class="container-fluit">
+				<div id="entrada" class="dis-Entrada">
+					<div class="entrada-title">
+						<h2 class="fs-1 p-2 m-auto border-start border-5">
+							Dispositivos de entrada
+						</h2>
+					</div>
+
+					<div class="entrada-content">
+						<div class="item mt-4">
+							<div class="item-title">
+								<h3>
+									Teclado
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Un teclado es un dispositivo que presenta el conjunto de las teclas de diversos aparatos, máquinas e instrumentos. Por lo general, el teclado permite el control o mando del aparato en cuestión.
+									En la actualidad, el término se encuentra muy asociado al periférico que permite introducir datos a una computadora o a otra máquina digital. Cuando el usuario presiona una tecla, se envía la información cifrada a la computadora y ésta muestra el carácter correspondiente a la tecla en la pantalla.
+									Los teclados de computadora presentan teclas alfanuméricas (letras y números), de puntuación (punto, coma, etc.) y teclas especiales (que cumplen distintas funciones, por ejemplo).
+									Entre dichas teclas especiales están, por ejemplo, las conocidas como teclas de función que son aquellas que se sitúan en la parte superior del teclado y que nos permiten acceder de manera directa a una serie de programas o herramientas simplemente por sí mismas o haciendo uso de ellas en combinación con otras.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/teclado.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Raton
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Mouse es una palabra inglesa que significa ratón. Más allá de hacer referencia al roedor (como ocurre con Mickey, el personaje de Disney que no necesita presentación alguna), la noción de mouse, en español, es entendida como el dispositivo apuntador que permite interactuar con una computadora.
+									Por lo general, los ratones están hechos de plástico y cuentan con un mecanismo que les permite detectar el movimiento que hace el usuario en dos dimensiones: el eje X y el eje Z, que pueden traducirse como la traslación lateral (de derecha a izquierda) y el avance o retroceso. Al desplazar el mouse sobre una superficie plana, dicho movimiento se refleja en la pantalla a través de un puntero, flecha o cursor.
+									Cabe mencionar que existe una curva de aprendizaje particular a la hora de utilizar un mouse por primera vez. A los niños pequeños, como en tantos otros campos, parece resultarles muy fácil y es común que en poco tiempo superen en destreza a sus mayores. Sin embargo, para una persona de cierta edad, que nunca se ha acercado a la tecnología, es necesario atravesar ciertas barreras.
+									La dificultad mayor reside en comprender que el movimiento realizado sobre una superficie horizontal se traduce a una pantalla, generalmente en posición vertical. Por otro lado, el usuario debe acostumbrarse a levantar el ratón y reposicionarlo cada vez que alcanza el límite del escritorio y desea seguir en la misma dirección.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/mouse.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Microfono
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Uno de los periféricos, es el micrófono de computadora o micrófono de PC, es un dispositivo de entrada de audio de los más comunes. Hablemos de la definición de micrófono de computadora, sus partes, funcionamiento, tipos y usos. Uno de los numerosos dispositivos periféricos, es el micrófono de computadora o micrófono de PC, es específicamente un dispositivo de entrada de audio, quizás el más común. Hablemos de la definición de micrófono de computadora, sus partes, funcionamiento, tipos y usos. El micrófono nace hacia la segunda mitad del siglo XIX, apartado del contexto informático. Aparece como un “mecanismo transductor” que permite captar cualquier onda sonora, amplificarla y llevarla de un lugar a otro en la forma de impulso eléctrico. Se integra a las primeras computadoras como dispositivo de entrada. Hoy en día cualquier computador moderno incluye algún tipo de micrófono. Ya sean internos o externos, como los que vienen incorporados a los audífonos, tienen una amplia gama de aplicaciones que veremos más adelante.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/microfono.jpg" class="mb-5" width="300px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Scanner
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									El término inglés scanner llegó al castellano como escáner. Se trata de un dispositivo que se utiliza para la exploración y el registro de una imagen. El resultado de esta actividad es traducido por el escáner en señales eléctricas que pueden procesarse. El escáner de computadora o escáner de ordenador es el más popular. Este periférico utiliza la luz para convertir las imágenes (un documento, una fotografía, etc.) en un archivo digital. Una vez obtenido este archivo, puede editarse y modificarse en la computadora. El primer escáner de este tipo fue desarrollado en 1984. Solo generaba imágenes en blanco y negro, de escasa resolución. Con los años, la calidad del resultado mejoró mucho. En la actualidad, el escáner suele estar integrado a la impresora, dando lugar a lo que se conoce como impresora multifunción. Escanear una imagen es un proceso que presenta un grado de complejidad relativamente alto si queremos obtener los mejores resultados, pero que puede simplificarse considerablemente si aprovechamos la asistencia que nos brindan los programas especializados. Para un usuario sin conocimientos técnicos acerca de la imagen, basta con presionar un botón y en pocos segundos la captura habrá finalizado, generando un archivo en la carpeta predeterminada por programa. Los demás, sin embargo, deben prestar atención a diversos parámetros.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/scanner.jpg" class="mb-5" width="300px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Camara
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Junto con las nuevas cámaras fotográficas, la cámara web es una de las últimas invenciones en el campo de la fotografía que, particularmente en este caso, logra un alcance mucho más ilimitado que el resto de las cámaras normales. Para poder disfrutar de la cámara web, se debe contar con conexión a internet más un receptor que sea quien reciba el mensaje y puede proceder a responder con su propia cámara web. A diferencia de lo que sucede entonces con el resto de las cámaras fotográficas, la cámara web siempre presenta la característica de que debe ser recibido su mensaje por otro en el momento en que se está transmitiendo. La cámara web suele ser un dispositivo bien pequeño pero al mismo tiempo cómodo para ser utilizado sin demasiadas complicaciones. En este sentido, la cámara web no suele contar con una gran cantidad de opciones a disfrutar ya que el objetivo principal de la misma es que pueda ser muy accesible e instántanea para mostrar lo que recibe en ese nombre. Por otro lado, con la cámara web se pueden normalmente sacar fotos y filmar videos pero la función más importante que brinda a sus usuarios (y por la que más se la compra) es la posibilidad de permitir que dos persona que no están en la misma habitación o lugar puedan contactarse entre sí, viéndose en vivo y en directo en el mismo momento.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/camara.jpg" class="mb-5" width="300px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Lapiz &oacuteptico
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Desde el inicio de la informática se ha buscado un dispositivo que ofrezca comodidad a la hora de manejar un ordenador y que, a su vez, permitiese escribir o dibujar a mano alzada; siendo este el origen del lápiz óptico. A continuación se indicarán en qué consisten, los tipos y cómo funcionan estos dispositivos.
+									Un lápiz óptico también conocido como lápiz para ordenador o pen digital es un dispositivo que, a través de una cabeza lectora, es capaz de escribir o dibujar en la pantalla del ordenador si esta es capaz de reconocer este tipo dispositivos o bien a través de un hardware intermedio denominado tableta digitalizadora.
+									Estilete o stylus. Consiste en un dispositivo que permite escribir o marcar distintos puntos de la pantalla. Es muy utilizado en videoconsolas portátiles y teléfonos táctiles. Funciona mediante un sistema de presión.
+									Tableta digitalizadora. Es un dispositivo basado en una superficie sobre la que se desplaza el lápiz que incluye siendo específico para cada modelo. Estas pueden ser clasificadas en dos tipos: Activas o pasivas en función del funcionamiento que presenten.
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/lapizOptico.jpg" class="mb-5" width="300px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Joystick
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Joystick es un término de la lengua inglesa que la Real Academia Española (RAE) no incluye en su diccionario, pero que de todas formas se usa con frecuencia en nuestro idioma. Un joystick es un instrumento que se emplea para controlar un sistema o un dispositivo.
+									JoystickPor lo general un joystick es una palanca que cuenta con una base y que puede realizar una cierta gama de movimientos. También conocido como palanca de mando, suele tener botones que le permiten al usuario dar instrucciones o concretar acciones.
+									En una aeronave, el joystick es el elemento de control más importante en el interior de una cabina de vuelo. Hay palancas de control lateral y palancas de control central y muchas disponen de interruptores adicionales para gestionar distintas cuestiones.
+									Otras máquinas, como las cámaras de vigilancia y las grúas, también se controlan a través de joysticks. Cuando el operador mueve el joystick hacia un lado, el aparato realiza el mismo movimiento: si desde la central de control se desplaza el joystick vinculado a una cámara hacia la izquierda, la cámara apuntará a ese lado, por citar un caso.
+									Los joysticks se popularizaron en todo el mundo gracias a los videojuegos. Estas palancas equipadas con botones se conectan a la computadora (ordenador) o a la consola y permiten mover a los personajes digitales. En un videojuego de tenis, por ejemplo, el jugador utilizará el joystick para desplazar al tenista virtual por la cancha, usando los botones para impactar la pelota.
+
+							<div class="item-img">
+								<img src="recursos/joystick.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="salida" class="dis-salida">
+					<div class="salida-title">
+						<h2 class="fs-1 p-2 m-auto mt-5 border-start border-5">
+							Dispositivos de salida
+						</h2>
+					</div>
+
+					<div class="salida-content">
+						<div class="item mt-4">
+							<div class="item-title">
+								<h3>
+									Monitor
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Muestran las imágenes y textos generados por medio de un adaptador gráfico o de video de ésta. El término monitor se refiere normalmente a la pantalla de vídeo, y su función principal y única es la de permitir al usuario interactuar con la computadora. Una computadora típica presenta un monitor con tecnología CRT (tubos de rayos catódicos), la misma que emplean los televisores; sin embargo, hoy en día existe la tecnología TFT (transistor de película fina) que reduce significativamente el volumen de los monitores.
+									Es aquel dispositivo usado por usuarios para que estos puedan comunicarse a través de diferentes partes del ordenador usando datos. En la actualidad existen muchos tipos de monitor de computadora y poseen funciones similares pero con una ejecución diferente.
+									Resulta imperativo mencionar que este término puede usarse en situaciones diferentes, por ejemplo, monitor político, monitor para bebé, etc. La función de este dispositivo es clara: mostrar gráficos en la pantalla.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/monitor.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Altavoces
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Los altavoces son dispositivos que permiten la amplificación del sonido.
+									Llamados parlantes o bocinas de acuerdo al país, los altavoces son transductores
+									El proceso que finaliza con la emisión de sonidos a través de los altavoces comienza con la conversión de las señales eléctricas en energía mecánica. Luego, dicha energía mecánica se transforma en ondas sonoras que se propagan por el aire. Una persona, gracias a sus oídos, puede captar las ondas, que luego arriban al cerebro como impulsos nerviosos. Finalmente dichos impulsos son interpretados y el proceso se completa.
+									La forma en la cual los altavoces amplifican los sonidos depende de sus características técnicas. Los altavoces ofrecen determinadas respuestas en frecuencia, manejan una cierta impedancia y disponen de diferentes potencias y sensibilidad. De acuerdo a cómo se combinan estas características, los altavoces podrán amplificar el sonido con mayor o menor fidelidad.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/altavoces.jpg" class="mb-5" width="400px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Impresora
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									La impresora es un objeto auxiliar, que está conectado a una unidad central de procesamiento de una computadora, su función es hacer una copia de aquellos documentos que han sido almacenados en un formato electrónico. Estos documentos pueden ser textos o imágenes que están impresos en una hoja o transparencia utilizando cartuchos de tintas o tecnología láser. La mayoría de las impresoras, están unidas a un ordenador por medio de un cable, aunque también existen las de red, las cuales poseen una interfaz de red interna, que le permite a cualquier usuario de la red imprimir documentos
+									Se trata de un dispositivo de salida que puede encontrarse conectado al computador o simplemente tener una conexión inalámbrica.
+									Este objeto logra que se produzcan una serie de gamas de gráficos o de textos pertenecientes a los documentos que han sido previamente guardados electrónicamente, de esta manera, se pueden imprimir para que pasen a ser físicos.
+									Estas impresiones pueden hacerse en papel a través de los cartuchos con tinta, aunque también puede ser a laser. Existen en la actualidad, muchas impresoras entre ellas, la impresora 3d, impresora hd, impresora epson, impresora láser, impresora de tinta continua, impresora portátil y la impresora multifuncional.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/impresora.png" class="mb-5" width="400px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Proyectores
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Un proyector es una máquina que se utiliza para la proyección de imágenes. De acuerdo al tipo de imágenes a mostrar, el aparato presenta diferentes características.
+									ProyectorEl proyector cinematográfico es un equipo formado por elementos mecánicos y ópticos que permiten proyectar una película en una pantalla. Lo que hace este proyector es emitir un haz de luz que una lente se encarga de aumentar e invertir antes de su llegada a los fotogramas del filme. Con este proceso, las imágenes resultantes luego se enfocan sobre la pantalla.
+									Es importante tener en cuenta que esta clase de proyector fue ideada a fines del siglo XIX por los hermanos Auguste y Louis Lumière. Actualmente también están disponibles los proyectores cinematográficos digitales que, como su nombre sugiere, generan la imagen de manera digital, sin recurrir a una película.
+									Se llama proyector de video, por otra parte, al dispositivo óptico que, al recibir una señal de video, puede proyectar las imágenes correspondientes gracias a un sistema de lentes. Utilizados en conferencias, congresos y clases, los proyectores de video pueden obtener la señal de entrada de una computadora (ordenador) o de un sintonizador de TV, por ejemplo.
+									Un proyector de diapositivas, en tanto, alberga un mecanismo para la visualización de imágenes que se proyectan sobre una pared u otra superficie lisa. Cabe recordar que una diapositiva es una fotografía positiva que se saca en un material transparente, como el cristal.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/proyector.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Modems
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Módem es un acrónimo formado por dos términos: modulación y demodulación. Se trata de un aparato utilizado en la informática para convertir las señales digitales en analógicas y viceversa, de modo tal que éstas puedan ser transmitidas de forma inteligible.
+									MódemEn las computadoras u ordenadores, el módem es un periférico de entrada/salida que puede ser tanto interno como externo. Permite conectar una línea telefónica al equipo y acceder a distintas redes, como Internet.
+									¿Cómo funciona un módem? Básicamente su sistema de operación a la hora de establecer la comunicación es el siguiente: lo primero es proceder a detectar el tono de la línea, seguidamente se lleva a cabo la marcación del número correspondiente y en tercer y último lugar se establece el enlace.
+									En el caso de la conexión a Internet por vía telefónica, el módem recibe datos analógicos, se encarga de demodularlos y los convierte en digitales. El dispositivo también realiza el proceso inverso, permitiendo las comunicaciones.
+									No obstante, no son las únicas alternativas. También nos encontramos con la existencia de que la conexión puede llevarse a cabo a través de lo que se conoce como UART (Universal Asynchronous Receiver-Transmitter). Este se encuentra situado en lo que es la placa base del dispositivo en cuestión y se encarga de llevar a cabo el control de los distintos puertos.
+									Los módems internos son tarjetas de expansión que pueden conectarse mediante distintos tipos de conectores: AMR (una tecnología que ya no suele utilizarse), Bus ISA (tampoco se usa en la actualidad por la baja velocidad que ofrece) y Bus PCI (el formato más popular de este tipo de módems).
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/modem.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="almacenamiento" class="dis-almacenamineto">
+					<div class="almacenamiento-title">
+						<h2 class="fs-1 p-2 m-auto mt-5 border-start border-5">
+							Dispositivos de almacenamiento
+						</h2>
+					</div>
+
+					<div class="almacenamiento-content">
+						<div class="item mt-4">
+							<div class="item-title">
+								<h3>
+									Disco duro externo
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Un disco duro externo es un dispositivo de almacenamiento de fácil intercambio entre computadoras. Suele tener una conexión USB y tiene como finalidad servir de respaldo de datos.
+									Durante la existencia de las computadoras personales existieron diversas variantes, destacándose en la actualidad aquellos que se componen de una memoria flash. Este tipo de dispositivos fue mostrando mejoras en su capacidad de almacenamiento, consiguiéndose cada vez más capacidad a un precio menor. Constituye un aditivo importante a la hora de guardar datos que se consideren críticos o para mera ampliación de la capacidad de almacenamiento que existe en una computadora ordinaria.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/dd-externo.jpg" class="mb-5" width="400px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									USB
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Una memoria USB (Universal Serial Bus) es un dispositivo de almacenamiento masivo que utiliza memoria flash para guardar la información que puede requerir. Se conecta mediante un puerto USB y la información que a este se le introduzca puede ser modificada millones de veces durante su vida útil. En España son conocidas popularmente como pendrives.
+									Estas memorias se han convertido en el sistema de almacenamiento y transporte personal de datos más utilizado, desplazando en este uso a los tradicionales disquetes, y a los CD. Se pueden encontrar en el mercado fácilmente memorias con capacidad que van desde 1GB hasta 256 GB; aunque resultan inconvenientes a partir de los 64GB por su elevado costo.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/usb.jpg" class="mb-5" width="400px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									DVD
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Un DVD, abreviatura (en inglés) de "disco digital versátil" o "disco digital de video", es un disco óptico capaz de almacenar contenidos de medios, incluyendo datos, audio y video. En muchos casos, los DVDs son capaces de almacenar los tres.Los DVDs vienen en múltiples tipos y capacidades de almacenamiento. Los DVDs pueden tener un sólo lado, dos lados, de una sola capa o dos capas, todas dictando la cantidad de contenidos de medios que el DVD puede almacenar. Las capacidades de almacenamiento de los DVDs van desde 1,46 GB en un DVD de un sólo lado y una capa a 17,08 GB en un DVD de dos lados y dos capas.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/dvd.jpg" class="mb-5" width="500px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Targeta SD
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Una tarjeta digital segura (SD) es una tarjeta de memoria flash extraíble utilizada para almacenar información digital, como programas y archivos. Las tarjetas SD se utilizan comúnmente en teléfonos celulares y en otros dispositivos portátiles para ampliar el almacenamiento de la memoria ROM. Una tarjeta microSD mide 15 mm x 11 mm x 1 mm, aproximadamente el tamaño de una uña. Una tarjeta de memoria generalmente muestra la siguiente información en su parte frontal: marca, tipo, capacidad, número de serie para lugar de origen, velocidades de lectura y escritura, y logotipo de certificación.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/targeta-sd.jpg" class="mb-5" width="400px" height="300px" alt="">
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="item-title">
+								<h3>
+									Disquete
+								</h3>
+							</div>
+							
+							<div class="item-concep">
+								<p>
+									Se denomina disquete a un elemento que permite almacenar datos digitales. También conocido como diskette, disco flexible o floppy disk, consta de un disco magnético protegido por una cubierta rectangular o cuadrada de plástico.Décadas atrás los disquetes eran el soporte de almacenamiento más usado en las computadoras (ordenadores). No solo se utilizaban para guardar información (documentos de oficina, fotografías, software, etc.), sino también para trasladarla de un equipo a otro.
+								</p>
+							</div>
+
+							<div class="item-img">
+								<img src="recursos/disquete.jpg" class="mb-5" width="300px" height="300px" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="arriba position-fixed" title="Ir al inicio">
+			<a href="#wrapper">
+				<i class="fas fa-chevron-up fs-4"></i>
+			</a>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="main.js"></script>
+</body>
+</html>
